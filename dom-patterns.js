@@ -11,5 +11,9 @@ function showPattern(){
         const newDiv = document.createElement('div');
         
         newDivstyle.top = topPosition + 'px';
+        newDivstyle.left = leftPosition + 'px';
+        newDivstyle.width = width + 'px';
+        newDivstyle.height = height + 'px';
+        newDivstyle.background = colorsArr[randomColorIdx];
         }
 }

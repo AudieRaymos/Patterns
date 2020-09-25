@@ -10,11 +10,11 @@ function showPattern(){
         const randomColorIdx = Math.floor(Math.random() * colorsArr.length);
         const newDiv = document.createElement('div');
         
-        newDivstyle.top = topPosition + 'px';
-        newDivstyle.left = leftPosition + 'px';
-        newDivstyle.width = width + 'px';
-        newDivstyle.height = height + 'px';
-        newDivstyle.background = colorsArr[randomColorIdx];
+        newDiv.style.top = topPosition + 'px';
+        newDiv.style.left = leftPosition + 'px';
+        newDiv.style.width = width + 'px';
+        newDiv.style.height = height + 'px';
+        newDiv.style.background = colorsArr[randomColorIdx];
 
         document.body.appendChild(newDiv);
         topPosition += 10;

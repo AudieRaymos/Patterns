@@ -15,5 +15,11 @@ function showPattern(){
         newDivstyle.width = width + 'px';
         newDivstyle.height = height + 'px';
         newDivstyle.background = colorsArr[randomColorIdx];
+
+        document.body.appendChild(newDiv);
+        topPosition += 10;
+        leftPosition += 10;
+        width -= 20;
+        height -= 20;
         }
 }
